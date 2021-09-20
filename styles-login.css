@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+}
+
+/* Style the header */
+.header {
+  /* background-color: #79dbc2;*/
+  padding: 20px;
+  text-align: center;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  align-content: center;
+  width: 33.33%;
+  padding: 15px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  padding: 10px;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
